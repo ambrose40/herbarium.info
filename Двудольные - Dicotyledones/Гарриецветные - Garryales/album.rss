@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Гарриецветные - Garryales</title>
+   	<link>../..</link>
+        <generator>jAlbum 31.1</generator>
+   		<description>The Garryales are a small order of dicotyledons, including only two families and three genera.
+Garryales are woody plants that are either hairless or have very fine hairs. Members of the family Garryaceae are evergreen, whereas those of the Eucommiaceae are deciduous and produce latex. All members are dioecious.
+These belong among the asterids. Under the Cronquist system, the Garryaceae were placed among the Cornales. The Eucommiaceae were given their own order and placed among the Hamamelidae. The Oncothecaceae family has been associated with Garryales, though the link is not strong enough to prove they are related.</description>
+        <jalbum:absolutePath>https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%93%D0%B0%D1%80%D1%80%D0%B8%D0%B5%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Garryales/</jalbum:absolutePath>
+    	<jalbum:link rel="sub" href="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%93%D0%B0%D1%80%D1%80%D0%B8%D0%B5%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Garryales/%D0%93%D0%B0%D1%80%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Garryaceae/album.rss" title="Гарриевые - Garryaceae" thumbnail="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%93%D0%B0%D1%80%D1%80%D0%B8%D0%B5%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Garryales/%D0%93%D0%B0%D1%80%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Garryaceae/%D0%90%D1%83%D0%BA%D1%83%D0%B1%D0%B0%20%D1%8F%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20-%20Aucuba%20japonica/thumbs/DSC02101.webp" thumbnailWidth="512" thumbnailHeight="410" />
+    </channel>
+</rss>
