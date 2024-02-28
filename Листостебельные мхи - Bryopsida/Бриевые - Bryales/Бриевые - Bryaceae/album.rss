@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Бриевые - Bryaceae</title>
+   	<link>../../..</link>
+        <generator>jAlbum 31.1</generator>
+   		<description></description>
+        <jalbum:absolutePath>https://herbarium.info/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D1%81%D1%82%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BC%D1%85%D0%B8%20-%20Bryopsida/%D0%91%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Bryales/%D0%91%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Bryaceae/</jalbum:absolutePath>
+    	<jalbum:link rel="sub" href="https://herbarium.info/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D1%81%D1%82%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BC%D1%85%D0%B8%20-%20Bryopsida/%D0%91%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Bryales/%D0%91%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Bryaceae/%D0%91%D1%80%D0%B8%D1%83%D0%BC%20%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B8%20-%20Bryum%20capillare/album.rss" title="Бриум волосовидный - Bryum capillare" thumbnail="https://herbarium.info/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D1%81%D1%82%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BC%D1%85%D0%B8%20-%20Bryopsida/%D0%91%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Bryales/%D0%91%D1%80%D0%B8%D0%B5%D0%B2%D1%8B%D0%B5%20-%20Bryaceae/%D0%91%D1%80%D0%B8%D1%83%D0%BC%20%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B8%20-%20Bryum%20capillare/thumbs/DSC09488.webp" thumbnailWidth="512" thumbnailHeight="410" />
+    </channel>
+</rss>
