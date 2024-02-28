@@ -1,0 +1,112 @@
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Video
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/json "access plus 1 month"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
+  <FilesMatch "\.(js|css)$">
+    ExpiresActive on 
+    ExpiresDefault "access plus 1 month"
+  </FilesMatch>
+</IfModule>
+<IfModule mod_headers.c>
+  Header set Connection keep-alive
+  <filesmatch "\.(ico|flv|gif|swf|eot|woff|otf|ttf|svg)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </filesmatch>
+  <filesmatch "\.(jpg|jpeg|png)$">
+    Header set Cache-Control "max-age=1209600, public"
+  </filesmatch>
+  # css and js should use private for proxy caching https://developers.google.com/speed/docs/best-practices/caching#LeverageProxyCaching
+  <filesmatch "\.(css)$">
+    Header set Cache-Control "max-age=31536000, private"
+  </filesmatch>
+  <filesmatch "\.(js)$">
+    Header set Cache-Control "max-age=1209600, private"
+  </filesmatch>
+  <filesMatch "\.(x?html?|php)$">
+    Header set Cache-Control "max-age=3600, private"
+  </filesMatch>
+</IfModule>
+<ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file .(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_include mime ^application/json
+  mod_gzip_item_include mime ^image/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
+<IfModule mod_deflate.c>
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/png
+  AddOutputFilterByType DEFLATE image/jpeg
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+
+  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+</IfModule>
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=10886400; includeSubDomains; preload"
+  Header always set Expect-CT enforce,max-age=2592000,report-uri="https://herbarium.info/#/contact/"
+  # Header always set Content-Security-Policy "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';"
+  Header always set Content-Security-Policy "default-src 'self'; font-src 'self' fonts.gstatic.com; img-src * data:; frame-src www.facebook.com s7.addthis.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' maps.googleapis.com jalbum.net z.moatads.com v1.addthisedge.com connect.facebook.net m.addthis.com www.google-analytics.com s7.addthis.com www.googletagmanager.com static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' fonts.googleapis.com; connect-src 'self' stats.g.doubleclick.net www.google-analytics.com maps.googleapis.com; report-uri https://melikian.vip;"
+  Header always set Referrer-Policy: "no-referrer, strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "ALLOWALL"
+  Header always set X-Xss-Protection "1; mode=block"
+  Header always set Access-Control-Allow-Origin: https://herbarium.info
+  Header always set Vary: Origin
+  # Disable server signature
+  ServerSignature Off
+  AddCharset UTF-8 .html
+  Header always set Server "BRAIN-Z"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Permissions-Policy "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),display-capture=(),document-domain=(),encrypted-media=()"
+  Header always set Permissions-Policy "gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials=(),speaker=(self),sync-xhr=(),usb=(),geolocation=(self),fullscreen=(self),wake-lock=()"
+  # Header always set Feature-Policy "accelerometer 'none';ambient-light-sensor 'none';autoplay 'none';battery 'none';camera 'none';display-capture 'none';display-capture 'none';document-domain 'none';encrypted-media 'none';"
+  # Header always set Feature-Policy "gyroscope 'none';magnetometer 'none';microphone 'none';midi 'none';payment 'none';picture-in-picture 'none';publickey-credentials 'none';speaker 'self';sync-xhr 'none';usb 'none' geolocation 'self';fullscreen 'self';wake-lock 'none';"
+</IfModule>

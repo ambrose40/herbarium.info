@@ -1,0 +1,11 @@
+/* See: humanstxt.org */
+
+/* TEAM */
+  Album template author: Laszlo Molnar
+  Site: https://jalbum.net/
+  Contact: laza@jalbum.net
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Software: jAlbum
+
