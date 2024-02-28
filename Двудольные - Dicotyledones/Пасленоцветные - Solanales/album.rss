@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Паслёноцветные - Solanales</title>
+   	<link>../..</link>
+        <generator>jAlbum 31.1</generator>
+   		<description>The Solanales are an order of flowering plants, included in the asterid group of dicotyledons. Some older sources used the name Polemoniales for this order.</description>
+        <jalbum:absolutePath>https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%9F%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Solanales/</jalbum:absolutePath>
+    	<jalbum:link rel="sub" href="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%9F%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Solanales/%D0%9F%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Solanaceae/album.rss" title="Паслёновые - Solanaceae" thumbnail="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%9F%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Solanales/%D0%9F%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Solanaceae/%D0%91%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F%20-%20Hyoscyamus%20albus/thumbs/0SET09400.webp" thumbnailWidth="512" thumbnailHeight="410" />
+    	<jalbum:link rel="sub" href="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%9F%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Solanales/%D0%92%D1%8C%D1%8E%D0%BD%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Convolvulaceae/album.rss" title="Вьюнковые - Convolvulaceae" thumbnail="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%9F%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Solanales/%D0%92%D1%8C%D1%8E%D0%BD%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Convolvulaceae/%D0%92%D1%8C%D1%8E%D0%BD%D0%BE%D0%BA%20%D0%BF%D0%BE%D0%BB%D0%B5%D0%B2%D0%BE%D0%B8%20-%20Convolvulus%20arvensis/thumbs/%21_lauluvaeljak_narva_mantee_hedge-304165.webp" thumbnailWidth="512" thumbnailHeight="410" />
+    </channel>
+</rss>
