@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Язвенник горный - Anthyllis montana</title>
+   	<link>../../../..</link>
+        <generator>jAlbum 31.1</generator>
+   		<description></description>
+        <jalbum:absolutePath>https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Fabales/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Fabaceae/%D0%AF%D0%B7%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%B3%D0%BE%D1%80%D0%BD%D1%8B%D0%B8%20-%20Anthyllis%20montana/</jalbum:absolutePath>
+        <item>
+            <title>IMG_5258</title>
+            <link>https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Fabales/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Fabaceae/%D0%AF%D0%B7%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%B3%D0%BE%D1%80%D0%BD%D1%8B%D0%B8%20-%20Anthyllis%20montana/slides/IMG_5258.html</link>
+            <pubDate>Thu, 03 Jul 2014 00:40:20 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Fabales/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Fabaceae/%D0%AF%D0%B7%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%B3%D0%BE%D1%80%D0%BD%D1%8B%D0%B8%20-%20Anthyllis%20montana/thumbs/IMG_5258.webp" width="512" height="410"/>
+            <media:content type="image/jpeg" url="https://herbarium.info/%D0%94%D0%B2%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20-%20Dicotyledones/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5%20-%20Fabales/%D0%91%D0%BE%D0%B1%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Fabaceae/%D0%AF%D0%B7%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%B3%D0%BE%D1%80%D0%BD%D1%8B%D0%B8%20-%20Anthyllis%20montana/slides/IMG_5258.webp" width="1224" height="1632"/>
+            <jalbum:exif originalDate="Sat, 24 May 2014 15:18:49 +0300" cameraMake="Apple" cameraModel="iPhone 5"/>
+            <guid isPermaLink="false">slides/IMG_5258.webp</guid>
+        </item>
+    </channel>
+</rss>
