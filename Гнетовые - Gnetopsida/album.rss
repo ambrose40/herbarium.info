@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Гнетовые - Gnetopsida</title>
+   	<link>..</link>
+        <generator>jAlbum 31.1</generator>
+   		<description>Gnetophyta is a division of plants, grouped within the gymnosperms (which also includes conifers, cycads, and ginkgos), that consists of some 70 species across the three relict genera: Gnetum (family Gnetaceae), Welwitschia (family Welwitschiaceae), and Ephedra (family Ephedraceae). Fossilized pollen attributed to a close relative of Ephedra has been dated as far back as the Early Cretaceous. Though diverse and dominant in the Tertiary, only three families, each containing a single genus, are still alive today. The primary difference between gnetophytes and other gymnosperms is the presence of vessel elements, a system of conduits that transport water within the plant, similar to those found in flowering plants. Because of this, gnetophytes were once thought to be the closest gymnosperm relatives to flowering plants, but more recent molecular studies have largely disproven this hypothesis.
+Though it is clear they are all closely related, the exact evolutionary inter-relationships between gnetophytes are unclear. Some classifications hold that all three genera should be placed in a single order (Gnetales), while other classifications say they should be distributed among three separate orders, each containing a single family and genus. Most morphological and molecular studies confirm that the genera Gnetum and Welwitschia diverged from each other more recently than they did from Ephedra.</description>
+        <jalbum:absolutePath>https://herbarium.info/%D0%93%D0%BD%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Gnetopsida/</jalbum:absolutePath>
+    	<jalbum:link rel="sub" href="https://herbarium.info/%D0%93%D0%BD%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Gnetopsida/%D0%A5%D0%B2%D0%BE%D0%B8%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%2C%20%D0%AD%D1%84%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Ephedrales/album.rss" title="Хвойниковые, Эфедровые - Ephedrales" thumbnail="https://herbarium.info/%D0%93%D0%BD%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Gnetopsida/%D0%A5%D0%B2%D0%BE%D0%B8%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%2C%20%D0%AD%D1%84%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Ephedrales/%D0%A5%D0%B2%D0%BE%D0%B8%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%2C%20%D0%AD%D1%84%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D1%8B%D0%B5%20-%20Ephedraceae/%D0%A5%D0%B2%D0%BE%D0%B8%D0%BD%D0%B8%D0%BA%20%D0%B4%D0%B2%D1%83%D1%85%D0%BA%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B8%20-%20Ephedra%20distachya/thumbs/DSC09178.webp" thumbnailWidth="512" thumbnailHeight="410" />
+    </channel>
+</rss>
